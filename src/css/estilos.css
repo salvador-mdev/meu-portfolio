@@ -161,7 +161,7 @@ body {
 	max-width: 260px;
 	max-height: 500px;
 	position: relative;
-	display: none;
+	/* display: none; */
 }
 
 .projetos .projeto.ativo {
@@ -195,6 +195,27 @@ body {
 
 .projetos .projeto .img4 {
 	background: url(../imagens/Agencia-de-turismo-desktop.webp) no-repeat top;
+	background-size: cover;
+	width: 260px;
+	height: 450px;
+}
+
+.projetos .projeto .img5 {
+	background: url(../imagens/landing-page-agencia-xyz.webp) no-repeat top;
+	background-size: cover;
+	width: 260px;
+	height: 450px;
+}
+
+.projetos .projeto .img6 {
+	background: url(../imagens/house-of-the-dragon.webp) no-repeat top;
+	background-size: cover;
+	width: 260px;
+	height: 450px;
+}
+
+.projetos .projeto .img7 {
+	background: url(../imagens/x-men.webp) no-repeat top;
 	background-size: cover;
 	width: 260px;
 	height: 450px;
@@ -358,13 +379,13 @@ body {
 	.home .informacoes p {
 		font-family: "Raleway", sans-serif;
 		font-size: 12px;
-		margin-bottom: 20px;
+		margin-bottom: 5px;
 	}
 
 	.home .informacoes {
 		display: flex;
 		flex-direction: column;
-		gap: 15px;
+		gap: 10px;
 		letter-spacing: 2px;
 		padding: 0;
 		max-width: 100%;
