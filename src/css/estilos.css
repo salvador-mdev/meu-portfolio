@@ -208,7 +208,7 @@ body {
 }
 
 .projetos .projeto .img6 {
-	background: url(../imagens/house-of-the-dragon.webp) no-repeat top;
+	background: url(../imagens/house-of-the-dragon.webp) no-repeat top left;
 	background-size: cover;
 	width: 260px;
 	height: 450px;
