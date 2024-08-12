@@ -31,7 +31,6 @@ body {
 	font-family: "Raleway", sans-serif;
 	transition: 0.3s ease-in-out;
 	color: var(--cor-primaria);
-	/* background-color: #333; */
 }
 
 .cabecalho a:hover .logo {
@@ -174,28 +173,28 @@ body {
 } */
 
 .projetos .projeto .img1 {
-	background: url(../imagens/Cafeteria-version-desktop.png) no-repeat top;
+	background: url(../imagens/Cafeteria-version-desktop.webp) no-repeat top;
 	background-size: cover;
 	width: 260px;
 	height: 450px;
 }
 
 .projetos .projeto .img2 {
-	background: url(../imagens/Pet-shop-version-desktop.png) no-repeat top;
+	background: url(../imagens/Pet-shop-version-desktop.webp) no-repeat top;
 	background-size: cover;
 	width: 260px;
 	height: 450px;
 }
 
 .projetos .projeto .img3 {
-	background: url(../imagens/Loja-roupa-version-desktop.png) no-repeat top;
+	background: url(../imagens/Loja-roupa-version-desktop.webp) no-repeat top;
 	background-size: cover;
 	width: 260px;
 	height: 450px;
 }
 
 .projetos .projeto .img4 {
-	background: url(../imagens/Agencia-de-turismo-desktop.png) no-repeat top;
+	background: url(../imagens/Agencia-de-turismo-desktop.webp) no-repeat top;
 	background-size: cover;
 	width: 260px;
 	height: 450px;
@@ -375,7 +374,7 @@ body {
 		width: 60px;
 		height: 60px;
 		border-radius: 50%;
-		border: 2px solid #fff;
+		border: 2px solid var(--cor-primaria);
 		text-decoration: underline;
 		text-align: center;
 		line-height: 50px;
